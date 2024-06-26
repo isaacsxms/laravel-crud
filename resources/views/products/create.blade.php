@@ -7,7 +7,7 @@
             <div class="pull-left">
                 <h2>Add New Product</h2>
             </div>
-            <div class="pull-right">
+            <div class="mt-3 mb-3">
                 <a class="btn btn-primary" href="{{ route('products.index') }}"> Back</a>
             </div>
         </div>
@@ -32,6 +32,12 @@
                 <div class="form-group">
                     <strong>Name:</strong>
                     <input type="text" name="name" class="form-control" placeholder="Name">
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="form-group">
+                    <strong>Price:</strong>
+                    <input type="number" min="1" name="price" class="form-control" placeholder="Price">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
